@@ -1,0 +1,20 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-primary">
+  <div class="container">
+    <a href="/" class="navbar-brand">Movie App</a>
+    <ul class="navbar-nav me-auto">
+      <li *ngIf="isAuthenticated" class="nav-item">
+        <a href="" class="nav-link active">Home</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav">
+      <li *ngIf="!isAuthenticated" class="nav-item">
+        <a  routerLink="/auth" class="nav-link">Giriş</a>
+      </li>
+      <li *ngIf="isAuthenticated" class="nav-item">
+        <a (click)="onLogout()" class="nav-link">Çıkış</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+

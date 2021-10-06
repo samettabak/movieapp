@@ -1,0 +1,75 @@
+{
+  "movies": [
+   
+    {
+      "id": 7,
+      "title": "ddddddddddddddd",
+      "description": "dddd",
+      "imageUrl": "ddddddd",
+      "isPopular": false,
+      "datePublished": 1627720262441,
+      "categoryId": "1"
+    },
+    {
+      "id": 8,
+      "title": "ffffff",
+      "description": "ffff",
+      "imageUrl": "fff",
+      "isPopular": false,
+      "datePublished": 1627720320743,
+      "categoryId": "1"
+    },
+    {
+      "id": 9,
+      "title": "film adı",
+      "description": " ",
+      "imageUrl": "1.jpeg",
+      "price": "1000TL",
+      "isPopular": false,
+      "datePublished": 1627720599176,
+      "categoryId": "1"
+    },
+    {
+      "id": 10,
+      "title": "film adı",
+      "description": "",
+      "imageUrl": "1.jpeg",
+      "price": "1000",
+      "isPopular": true,
+      "datePublished": 1627997024577,
+      "categoryId": "1"
+    },
+    {
+      "id": 11,
+      "title": "film adı",
+      "description": "",
+      "imageUrl": "1.jpeg",
+      "price": 1000,
+      "isPopular": false,
+      "datePublished": 1627998228611,
+      "categoryId": "1"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "macera"
+    },
+    {
+      "id": 2,
+      "name": "romantik"
+    },
+    {
+      "id": 3,
+      "name": "komedi"
+    },
+    {
+      "id": 4,
+      "name": "dram"
+    },
+    {
+      "id": 5,
+      "name": "savaş"
+    }
+  ]
+}
